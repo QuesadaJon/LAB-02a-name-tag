@@ -7,6 +7,9 @@ body, html {
 ;
 }
 
+body {
+    background-color: silver ;
+}
 .base {
     background-color: red;
     color: white;
@@ -38,4 +41,35 @@ body, html {
     top: 33%;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 3em;
+}
+
+.input-stuff {
+    left: 54.5%;
+    top: 50%;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.button {
+    position: absolute;
+    left: 57%;
+    top: 54%;
+}
+
+.pink {
+    position: absolute;
+    left: 45%;
+    top: 17%;
+}
+
+.lightgreen {
+    position: absolute;
+    left: 52%;
+    top: 17%;
+}
+
+.lightblue {
+    position: absolute;
+    left: 60%;
+    top: 17%;
 }

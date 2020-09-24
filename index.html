@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class ='base'>
+    <main>
+        <button class = 'pink' id='pink-button'>Pink</Button>
+        <button class = 'lightgreen' id='lightgreen-button'>Light Green</button>
+        <button class = 'lightblue' id='lightblue-button'>Light Blue</button>
+    <section class ='base' id = 'name-tag-base'>
         <div class ='hello'>
             hello
         </div>
@@ -15,11 +19,19 @@
             my name is
         </div>
     </section>
-    <section class ='name'>
-        <div>
+    <section class ='name' id='name'>
+        <div id ='tag-name'>
             The Dude
         </div>
     </section>
-    
+    </main>
+<section class ='input-stuff'>
+    <input id='text'/>
+</section>
+<section class ='button'>
+    <button id='the-button'>Change Name</button>
+</section>
+<script type='module' src="app.js"></script>   
 </body>
+
 </html>
